@@ -13,7 +13,6 @@ function difference(form)
     var result, number1 = form.one.value, number2 = form.two.value;
     document.write("Введено:  ");
     print(number1, number2);
-    document.write("<br />");
 
     //max = Math.max(number1, number2);
     //min = Math.min(number1, number2);
