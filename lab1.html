@@ -6,19 +6,22 @@
     <script src="func.js"></script>
 </head>
 <body>
-    <h2 style="text-align: center">Максим Губин, вариант 1</h2>
-    <p>В окне 3 элемента: 2 элемента для ввода текста и кнопка. Вводится 2 числа.
-        По нажатию кнопки максимальное число заменяется на разность максимального и минимального.
-        Доступ к элементам - по имени
-        Способ обработки событий - elem.onclick = function</p>
-    <form action="" name="test" onsubmit="difference(this)"> <!-- Обработка событий через атрибут html -->
-        <label for="one">Первое число:</label>
-        <input type="number" name="one" placeholder=""/><br />
-        <label for="two">Второе число:</label>
-        <input type="number" name="two" placeholder=""/><br />
-        <!---<input type="submit" name="submit" value="Вычислить" /> -->
-        <button>Вычислить</button>
-    </form>
-
+<h2 style="text-align: center">Максим Губин, вариант 7</h2>
+<p>В окне 3 элемента: 2 элемента для ввода текста и кнопка. Вводится 2 числа.
+    По нажатию кнопки максимальное число заменяется на разность максимального и минимального.
+    Доступ к элементам - по имени
+    Способ обработки событий - elem.onclick = function</p>
+<form action="" name="test" onsubmit="difference(this)"> <!-- Обработка событий через атрибут html -->
+    <label for="one">Первое число:</label>
+    <input type="number" name="one" placeholder=""/><br />
+    <label for="two">Второе число:</label>
+    <input type="number" name="two" placeholder=""/><br />
+    <!---<input type="submit" name="submit" value="Вычислить" /> -->
+    <button>Вычислить</button>
+</form>
+<!--<script>-->
+<!--var but = document.querySelector("button");-->
+<!--but.onclick = difference;-->
+<!--</script>-->
 </body>
 </html>

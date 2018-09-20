@@ -19,5 +19,3 @@ function difference(form)
     document.write(number1 + " ");
     document.write(number2 + " ");
 }
-
-//difference(2, 3);
